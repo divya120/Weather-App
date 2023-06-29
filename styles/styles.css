@@ -1,3 +1,124 @@
-p{
+:root{
+    background-image: linear-gradient(to right, rgb(103,123,229), rgb(118,77,164));
     font-family: 'Courier New', Courier, monospace;
+}
+/* p{
+    font-family: 'Courier New', Courier, monospace;
+} */
+body{
+    
+    
+}
+.ctn{
+    display:flex;
+    /* margin:0 auto; */
+    justify-items: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+}
+.blur-card{
+    /* width: 90%; */
+    height: 55rem;
+    /* opacity: 0.5; */
+    background-image: linear-gradient(to right,rgb(150,161,235), rgb(155,143,209));
+    /* position: relative; */
+    /* left: 35px; */
+    border-radius: 30px;
+    /* margin: 150px 45px 150px 35px; */
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-color: #f5f5f561;
+    border-width: 0.2px;
+    border-style:outset;
+}
+
+.subheading{
+    padding: 0px 20px 0px 30px;
+    font-family: Inter, sans-serif;
+    color: #493D5C;
+    font-size: 32px;
+}
+.heading{
+    padding: 10px 20px 0px 30px;
+    font-family: Inter, sans-serif;
+    /* position: relative; */
+    font-size: 48px;
+    background: linear-gradient(to bottom right, rgb(64, 5, 71), rgb(0, 0, 255));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip:text;
+}
+
+/* img{
+    padding: 0px 30px 30px 40px;
+    width: 95%;
+    height: 60%;
+    max-height: 450px;
+    max-width: 1270px;
+    
+} */
+img{
+    display: block;
+    width: 81rem;
+    border-radius: 25px;
+    /* overflow: visible; */
+    height: 27rem;
+}
+.img-div{
+    /* border-radius: 100px; */
+    padding: 0px 20px 10px 30px;
+    /* max-width: 50%;
+    max-height: 10;
+    max-height: 100px */
+    height: 27rem;
+    /* overflow: hidden; */
+    border-radius: 25px;
+    overflow: visible;
+   
+}
+.card{
+    height: 100px;
+    width: 100px;
+    background-color:rgb(243,244,246);
+    /* float: left; */
+    width: 14.7%;
+    height: 10rem;
+    padding: 0 5px 10px 0px;
+    margin : 7px;
+    border-radius: 10px;
+    display: flex;
+}
+
+.cards-div{
+    display: flex;
+    flex-direction: row;
+    /* margin: 5px; */
+}
+/* 
+.first{
+margin-left:30px;
+} */
+
+p{
+    position: absolute;
+    left: 5rem;
+    top: 10rem;
+    color: rgb(235, 237, 238);
+}
+
+.temperature{
+    color:rgb(235, 237, 238);
+    font-style: bold;
+    font-size: 48px;
+    position:absolute;
+    left: 15rem;
+    top: 13rem;
+}
+
+.type{
+    color: rgb(235, 237, 238);
+    position: absolute;
+    left: 15rem;
+    top: 17rem;
+
 }
